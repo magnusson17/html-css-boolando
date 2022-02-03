@@ -7,10 +7,6 @@
     font-family: Roboto;
 }
 
-body {
-    margin: 20px auto
-}
-
 .photo-container {
     width: 250px;
     position: relative;
@@ -72,4 +68,23 @@ body {
     color: white;
     padding: 3px;
     font-size: 0.7rem;
+}
+
+.description-brand {
+    font-size: 0.7rem;
+}
+
+.description-description {
+    font-weight: bolder;
+}
+
+.description-price {
+    color: #FF1814;
+    font-size: 0.9rem;
+}
+
+.discount {
+    color: black;
+    font-style:inherit;
+    text-decoration: line-through;
 }
