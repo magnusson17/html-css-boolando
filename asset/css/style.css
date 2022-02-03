@@ -29,7 +29,7 @@ main {
     height: 400px;
 }
 /*modalità 1 (devo per forza avere una height in .photo-container)
-VALIDA SOLO PER LA PRIMA IMG, PER LE ALTRE DEVI REPLICARE IL CODICE*/
+ATTENZIONE: VALIDA SOLO PER LA PRIMA IMG, PER LE ALTRE DEVI REPLICARE IL CODICE E USARE GLI URL CORRETTI*/
 /* .photo-container {
     background-image: url("../img/1.webp");
     background-size: cover;
