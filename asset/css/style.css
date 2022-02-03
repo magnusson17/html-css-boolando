@@ -24,6 +24,7 @@ main {
 .photo-container {
     width: 280px;
     position: relative;
+    cursor: pointer;
 
     height: 400px;
 }
