@@ -12,7 +12,7 @@ body {
     width: 250px;
     height: 300px;
     position: relative;
-
+/*modalità 1*/
     background-image: url("../img/1.webp");
     background-size: cover;
 }
@@ -20,7 +20,9 @@ body {
 .photo-container:hover {
     background-image: url("../img/1b.webp");
 }
+/*fine modalità 1*/
 
+/*modalità 2*/
 /* .modello-img {
     width: 250px;
 }
@@ -37,6 +39,7 @@ body {
 .photo-container:hover .modello-img-none{
     display: block;
 } */
+/*fine modalità 2*/
 
 .heart {
     position: absolute;
