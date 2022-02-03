@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto
+}
+
+.photo-container {
+    width: 250px;
+    height: 300px;
+    position: relative;
+
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.photo-container:hover {
+    background-image: url("../img/1b.webp");
+}
+
+/* .modello-img {
+    width: 250px;
+}
+
+.modello-img-none {
+    width: 250px;
+    display: none;
+}
+
+.photo-container:hover .modello-img{
+    display: none;
+}
+
+.photo-container:hover .modello-img-none{
+    display: block;
+} */
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    padding: 5px;
+}
+
+.sconto-sostenibile-container {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+}
+
+.sconto {
+    display: inline-block;
+    background-color: #EB0037;
+}
+
+.sostenibile {
+    display: inline-block;
+    background-color: #00875A;
+}
