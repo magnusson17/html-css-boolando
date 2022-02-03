@@ -7,13 +7,28 @@
     font-family: Roboto;
 }
 
+main {
+    width: calc(283px*3);
+    margin: auto;
+}
+
+.photo-description-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.photo-description-container-4-5-6 {
+    margin-bottom: 50px;
+}
+
 .photo-container {
     width: 280px;
     position: relative;
 
     height: 400px;
 }
-/*modalità 1 (devo per forza avere una height in .photo-container*/
+/*modalità 1 (devo per forza avere una height in .photo-container)
+VALIDA SOLO PER LA PRIMA IMG, PER LE ALTRE DEVI REPLICARE IL CODICE*/
 /* .photo-container {
     background-image: url("../img/1.webp");
     background-size: cover;
