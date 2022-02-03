@@ -8,12 +8,16 @@
 }
 
 .photo-container {
-    width: 250px;
+    width: 280px;
     position: relative;
+
+    height: 400px;
 }
-/*modalità 1 (devi anche aggiungere una height a .photo-container)*/
-    /* background-image: url("../img/1.webp");
+/*modalità 1 (devo per forza avere una height in .photo-container*/
+/* .photo-container {
+    background-image: url("../img/1.webp");
     background-size: cover;
+    background-position: center;
 }
 
 .photo-container:hover {
@@ -23,11 +27,13 @@
 
 /*modalità 2*/
 .modello-img {
-    width: 250px;
+    width: 280px;
+    height: 400px;
 }
 
 .modello-img-none {
-    width: 250px;
+    width: 280px;
+    height: 400px;
     display: none;
 }
 
