@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 body {
@@ -10,20 +13,20 @@ body {
 
 .photo-container {
     width: 250px;
-    height: 300px;
     position: relative;
-/*modalità 1*/
-    background-image: url("../img/1.webp");
+}
+/*modalità 1 (devi anche aggiungere una height a .photo-container)*/
+    /* background-image: url("../img/1.webp");
     background-size: cover;
 }
 
 .photo-container:hover {
     background-image: url("../img/1b.webp");
-}
+} */
 /*fine modalità 1*/
 
 /*modalità 2*/
-/* .modello-img {
+.modello-img {
     width: 250px;
 }
 
@@ -38,7 +41,7 @@ body {
 
 .photo-container:hover .modello-img-none{
     display: block;
-} */
+}
 /*fine modalità 2*/
 
 .heart {
@@ -58,9 +61,15 @@ body {
 .sconto {
     display: inline-block;
     background-color: #EB0037;
+    color: white;
+    padding: 3px;
+    font-size: 0.7rem;
 }
 
 .sostenibile {
     display: inline-block;
     background-color: #00875A;
+    color: white;
+    padding: 3px;
+    font-size: 0.7rem;
 }
